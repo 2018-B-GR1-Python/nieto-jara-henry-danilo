@@ -81,7 +81,7 @@ def agregar_a_archivos(path,*lineas_a_escribir):
         for linea in lineas_a_escribir:
             archivo_abierto.write(linea)
 
-        archivo_abierto.close()   
+        archivo_abierto.close()
 
      except Exception:
         print('No se pudo leer el archivo')
